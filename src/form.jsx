@@ -61,10 +61,7 @@ export function SubscriberForm() {
       <Form.Field>
         <Form.Label>Message</Form.Label>
         <Form.Textarea
-          value={message}
-          onChange={(e) => {
-            return setMessage(e.target.value);
-          }}
+          name="message"
         />
       </Form.Field>
 
